@@ -1,0 +1,44 @@
+body {
+    background-image:url(https://image.europafm.com/clipping/cmsimages02/2022/05/02/C1169EEC-99E0-4C1C-9C4C-4DE381BC5ACE/bad-bunny-desvela-fecha-estreno-cuantos-temas-tendra-disco-verano_97.jpg?crop=2456,1382,x0,y228&width=1600&height=900&optimize=high&format=webply);
+    
+}
+h1{
+    color: #f4f4f4;
+    font-family: sans-serif;
+    width: 100%; border: 1px solid #090909;
+    text-align: center;
+}
+.envoltura {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.articulo{
+    width: 45%;
+    height: 200px;
+    border: 0px ;
+    margin: 2%;
+    color: rgb(254, 249, 249);
+    
+}
+
+@media screen and(max-width: 599px) {  
+    .articulo{
+        width: 95%;
+        height: 200px;
+        border: 0px ;
+        margin: 2%;
+    }
+    
+}
+@media screen and(min-width: 1000px) {
+    .articulo{
+        width: 23%;
+        height: 200px;
+        border: 0px ;
+        margin: 0.5%;
+    }
+}
+h2{
+    text-align: center;
+}
